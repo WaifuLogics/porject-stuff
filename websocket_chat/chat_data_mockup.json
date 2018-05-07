@@ -1,0 +1,30 @@
+MESSAGE_OBJ:
+{
+	"sender": USER_OBJ,
+	"receiver": USER_OBJ,
+	"message_id": INT,
+	"message": TEXT
+}
+
+USER_OBJ:
+{
+	"account_name": TEXT,
+	"account_id": INT,
+	"user_id": INT,
+}
+
+EXAMPLE:
+{
+	"sender": {
+		"account_name": "guylianwashier",
+		"account_id": 132,
+		"user_id": 1
+	},
+	"receiver": {
+		"account_name": "duncte123",
+		"account_id": 235435,
+		"user_id": 2
+	},
+	"message_id": 234,
+	"message": "hoi"
+}
